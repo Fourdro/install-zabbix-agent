@@ -3,7 +3,7 @@
   become: yes
   vars:
     zabbix_version: 6.0
-    zbx_srv: 172.16.77.140
+    zbx_srv: #ip-adress server
     ubuntu16_link: "https://repo.zabbix.com/zabbix/{{zabbix_version}}/ubuntu/pool/main/z/zabbix-release/zabbix-release_{{zabbix_version}}-1+ubuntu16.04_all.deb"
     ubuntu16_file: "zabbix-release_{{zabbix_version}}-1+ubuntu16.04_all.deb"
     ubuntu18_link: "https://repo.zabbix.com/zabbix/{{zabbix_version}}/ubuntu/pool/main/z/zabbix-release/zabbix-release_{{zabbix_version}}-1+ubuntu18.04_all.deb"
